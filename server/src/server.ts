@@ -1,4 +1,4 @@
-import connectDB from "utils/db";
+import connectDB from "./utils/db";
 import { app } from "./app";
 
 const port = process.env.SERVER_PORT || 8000;
